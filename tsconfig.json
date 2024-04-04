@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "target": "es6",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "outDir": "dist"
+    "target": "es5", // Set the ECMAScript target version (adjust as needed)
+    "module": "commonjs", // Module system (commonjs for Node.js)
+    "strict": true, // Enable strict mode for type safety
+    "outDir": "dist", // Output directory for compiled JavaScript (optional)
+    "allowJs": true // Allow compilation of existing JavaScript files (optional)
   },
-  "lib": [
-    "es2015"
-  ]
+  "include": [
+    "src"
+  ] // Include pattern for TypeScript source files (optional)
 }
