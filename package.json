@@ -1,0 +1,27 @@
+{
+  "name": "code_palyground",
+  "version": "1.0.0",
+  "description": "practice code",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deshmukh-ajinkya/code_palyground.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript"
+  ],
+  "author": "ajinkya deshmukh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deshmukh-ajinkya/code_palyground/issues"
+  },
+  "homepage": "https://github.com/deshmukh-ajinkya/code_palyground#readme"
+}
