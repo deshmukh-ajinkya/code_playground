@@ -10,7 +10,7 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
-    "start": "nodemon && ts-node src/index.ts",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/deshmukh-ajinkya/code_palyground/issues"
   },
-  "homepage": "https://github.com/deshmukh-ajinkya/code_palyground#readme"
+  "homepage": "https://github.com/deshmukh-ajinkya/code_palyground#readme",
+  "dependencies": {
+    "prompt": "^1.3.0"
+  }
 }
