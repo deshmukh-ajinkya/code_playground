@@ -21,3 +21,22 @@ var myModule = (function () {
 
 console.log(myModule.getX()); // outputs 10
 myModule.foo(); // outputs "foo"
+
+
+
+
+// To make accessible using closure / object 
+let outerVariable = 'outer';
+
+(function () {
+  let innerVariable = 'inner';
+
+  function innerFunction() {
+    console.log(outerVariable); // logs 'outer'
+    console.log(innerVariable); // logs 'inner'
+  }
+
+  global.innerFunction = innerFunction; // exposing innerFunction to the global scope it can be any  object not restricted to GLOBAL
+})();
+
+innerFunction(); // logs 'outer' and 'inner'
